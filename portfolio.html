@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <title>Portfolio</title>
+    
+    
+</head>
+
+<body>
+    <nav>
+        <div class="container nav-container">
+            <a href="" class="logo">
+                <h2>Vaibhav<span> Singh</span></h2>
+            </a>
+            <ul>
+                <li><a href="#About">About </a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Blog">Blog</a></li>
+                <li><a href="#Contact">Contact </a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <div class="header-container container">
+            <div class="header-left">
+                <h1>
+                    Hello,
+
+                    <p class="name"> I am <span>Vaibhav</span></p>
+                </h1>
+                <p>Proficient in HTML,CSS, Javascript and React.js with
+                    experience in windows and linux<br> environmenst
+                    committed to deliveing hight-quality and driving organzation growth.
+                </p>
+
+                <h5>Frontend Developer</h5>
+                <br>
+                <!-- <div class="header-action-aria">
+                    <a href="" download class="btn btn-primary">Download CV</a>
+                    <a href="" class="btn">Read more</a> -->
+                </div>
+            </div>
+            <div class="header-right">
+                <img src="C:\Users\anuru\Desktop\vaibhav documents\Vaibhav Photo.jpg" alt="">
+            </div>
+    </header>
+
+    <section id="About">
+        <h1><span>A</span>BOUT</h1>
+        <div class="container about-container">
+            <p>I'm a diligent <span>Frontend Developer </span>, passionately committed to refining my <span> CSS, HTML,
+                </span> and <span> React </span> skills. My
+                relentless dedication drives me to continually learn and adapt, staying at the forefront of <span>web
+                    development</span> trends. My goal is to create captivating, responsive, and user-friendly web
+                interfaces.</p>
+        </div>
+        <div class="about-content">
+            <article class="about-article">
+                <img src="data:image/png;base64,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" alt="">
+                <h5>FULL NAME</h5>
+                <p>Vaibhav Singh Chauhan</p>
+
+            </article>
+            <article class="about-article">
+                <img src="email.png" alt="">
+                <h5>EMAIL</h5>
+                <p>chauhanvaibhavsingh0@ghmail.com </p>
+
+            </article>
+            <article class="about-article">
+                <img src="linkedin.png" alt="">
+                <h5>Linkedin</h5>
+                <p>www.linkedin.com/in/vaibhav-singh-chauhan-8b99372a0</p>
+
+            </article>
+            <article class="about-article">
+                <img src="telephone-call.png" alt="">
+                <h5>PHONE </h5>
+                <p>+917999256642</p>
+
+            </article>
+        </div>
+    </section>
+
+
+    <section id="Services">
+        <h1><span>W</span>hat I Do</h1>
+
+        <div class="container services-container">
+            <article class="services-article">
+                <img src="https://in.images.search.yahoo.com/images/view;_ylt=AwrKA0ofgoJmid4TsUS9HAx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzg2YzcxYTE0YWZlNGRhNzExMWUzNzYyNzRlMWE0OTkzBGdwb3MDMQRpdANiaW5n?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dservice%2Barticle%2Blogo%26type%3DE211IN826G0%26fr%3Dmcafee%26fr2%3Dpiv-web%26tab%3Dorganic%26ri%3D1&w=774&h=900&imgurl=thumbs.dreamstime.com%2Fb%2Farticle-icon-trendy-design-style-isolated-white-background-vector-simple-modern-flat-symbol-web-site-mobile-logo-app-135744229.jpg&rurl=https%3A%2F%2Fwww.dreamstime.com%2Farticle-icon-trendy-design-style-isolated-white-background-vector-simple-modern-flat-symbol-web-site-mobile-logo-app-image135744229&size=31.6KB&p=service+article+logo&oid=86c71a14afe4da7111e376274e1a4993&fr2=piv-web&fr=mcafee&tt=Article+Icon+in+Trendy+Design+Style.+Article+Icon+Isolated+on+White+...&b=0&ni=21&no=1&ts=&tab=organic&sigr=HTXzYPE51NwL&sigb=2835L58GNnc0&sigi=DS7NSiFu7y7n&sigt=cRbJ.FkmV_Fj&.crumb=pYJliE5u72S&fr=mcafee&fr2=piv-web&type=E211IN826G0" alt="">
+                <h2>Software Development</h2>
+                <p>Software development services encompass designing, coding, testing, and maintaining applications to
+                    meet specific client needs, delivering tailored software solutions.</p>
+            </article>
+            <article class="services-article">
+                <img src="https://github.com/Rajnish80/CODSOFT2/blob/main/coding.png?raw=true" alt="">
+                <h2>Web
+                    Development</h2>
+                <p>Web development
+
+                    Crafting websites by coding, designing, and optimizing for functionality, performance, and user
+                    experience, enabling online presence and interaction.</p>
+            </article>
+            <article class="services-article">
+                <img src="https://github.com/Rajnish80/CODSOFT2/blob/main/python.png?raw=true" alt="">
+                <h2>Python Programming</h2>
+                <p>
+
+                 Python is extensively applied in data science, data analysis, machine learning, data engineering, web development, software development, and other fields.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h1> <span>M</span>y Skills</h1>
+        <div class="container skills-container">
+            <article class="skill-article">
+
+                <h4>HTML </h4>
+            </article>
+            <article class="skill-article">
+
+                <h4>CSS</h4>
+            </article>
+            <article class="skill-article">
+
+                <h4>Javascript</h4>
+            </article>
+            <article class="skill-article">
+
+                <h4>MySql</h4>
+            </article>
+            <article class="skill-article">
+
+                <h4>Python</h4>
+            </article>
+            <article class="skill-article">
+
+                <h4>WebDesign</h4>
+            </article>
+            <article class="skill-article">
+
+                <h4>Testing</h4>
+            </article>
+            <article class="skill-article">
+
+                <h4>Promt Engineering</h4>
+            </article>
+
+        </div>
+    </section>
+
+
+    <section id="Blog">
+        <div class="row">
+            <div class="header">
+                <h1>B<span>log</span></h1>
+                <p>Welcome to the dynamic world of front-end development, web design, and web development. In this
+                    concise guide, we'll delve into the key aspects of this exciting field.</p>
+            </div>
+            <div class="content">
+                <div class="card">
+
+                    <img src="https://github.com/Rajnish80/CODSOFT2/blob/main/web%20design%20(1).jpg?raw=true" alt="">
+                    <br>
+                    <p>
+                        Web design is the art of crafting visually appealing and user-friendly websites, blending
+                        elements like typography, color theory, and layout to create memorable online experiences. HTML,
+                        CSS, and JavaScript are the cornerstone languages that enable us to build interactive and
+                        responsive websites, making them not only look great but also function seamlessly on various
+                        devices interface.
+
+                    </p>
+                </div>
+                <div class="card">
+
+                    <img src="https://github.com/Rajnish80/CODSOFT2/blob/main/web%20design%20(2).jpg?raw=true" alt="">
+                    <br>
+                    <p>
+                        Responsive web design ensures that websites adapt effortlessly to different screen sizes,
+                        offering a consistent experience across platforms. As you progress, you can explore frameworks
+                        like Bootstrap or delve into user-centric design principles to create intuitive interfaces. Web
+                        accessibility creativity and innovation, waiting for you to explore world-wide.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Contact">
+        <h1> <span>Get</span> In Touch</h1>
+        <div class="contatact-container container">
+            <form>
+                <div class="form-top">
+                    <input type="text" placeholder="  First Name" required>
+                    <input type="text" placeholder="Last Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="number" placeholder="Phone Number" required>
+
+                </div>
+                <div class="form-bottom">
+                    <textarea name="message" placeholder="message"></textarea>
+                    <button type="submit" class="btn btn-primary">Sumbit Now</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        &copy;Vaibhav Singh Chauhan
+
+    </footer>
+    <script src="portfolio.js"></script>
+
+</body>
+</html>
